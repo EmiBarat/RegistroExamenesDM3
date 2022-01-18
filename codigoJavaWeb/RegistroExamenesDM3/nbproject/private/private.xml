@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/src/java/servlets/GraficoBarrasNotasPorPruebaTodos.java</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/web/vistaGraficoBarras.jsp</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/src/java/servlets/CreadorGraficoBarras.java</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/web/visualGraficos.jsp</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/src/java/servlets/ReporteExamenes.java</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/web/listarPesosTodos.jsp</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/web/altaUsuario.jsp</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/web/header.jsp</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/web/filtroGraficosExamen.jsp</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/src/java/servlets/ReportePeso.java</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/src/java/controller/AccesoBaseDatos.java</file>
+            <file>file:/D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/src/java/servlets/GraficoExamenFiltrado.java</file>
+        </group>
+    </open-files>
+</project-private>

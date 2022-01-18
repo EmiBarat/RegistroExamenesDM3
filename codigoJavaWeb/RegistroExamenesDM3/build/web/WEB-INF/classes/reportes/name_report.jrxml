@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 5.5.2  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="name_report" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="805ab581-4a48-47a6-8536-5d444093cd8d">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="company_name" class="java.lang.String"/>
+	<parameter name="company_address" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="fechaPesaje" class="java.lang.String">
+		<fieldDescription><![CDATA[fechaPesaje]]></fieldDescription>
+	</field>
+	<field name="situacion" class="java.lang.String">
+		<fieldDescription><![CDATA[situacion]]></fieldDescription>
+	</field>
+	<field name="nombreAlumno" class="java.lang.String">
+		<fieldDescription><![CDATA[nombreAlumno]]></fieldDescription>
+	</field>
+	<field name="imc" class="java.lang.Double">
+		<fieldDescription><![CDATA[imc]]></fieldDescription>
+	</field>
+	<field name="pesoKg" class="java.lang.Double">
+		<fieldDescription><![CDATA[pesoKg]]></fieldDescription>
+	</field>
+	<field name="tratamiento" class="java.lang.String">
+		<fieldDescription><![CDATA[tratamiento]]></fieldDescription>
+	</field>
+	<background>
+		<band height="5" splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="87" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="50" width="550" height="30" uuid="cf2d1bc3-27f0-4a40-b3a2-56382035ace2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Corbel" size="20" isBold="false" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Seccion Acondicionamiento Psicofísico Profecional]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="54" height="29" uuid="d2c62798-fa1f-4075-985b-660d72e98ba0"/>
+				<imageExpression><![CDATA["D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/web/img/gendarmeriaEmblem.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="60" y="9" width="106" height="20" uuid="f4815d0c-5120-4f24-8c5f-25c13f44c957"/>
+				<text><![CDATA[Gendarmería Nacional]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="9" width="100" height="20" uuid="a138dcc5-cf3e-4a21-8cd7-f41cf6ad3a5a"/>
+				<text><![CDATA[Destacamento Móvil 3]]></text>
+			</staticText>
+			<image>
+				<reportElement x="500" y="0" width="50" height="50" uuid="1cff954a-1298-4b52-b484-858e8aab72f2"/>
+				<imageExpression><![CDATA["D:/PracticaSupervisadaUTN/codigoJavaWeb/RegistroExamenesDM3/web/img/escudoDM3lg.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="39">
+			<staticText>
+				<reportElement x="0" y="4" width="300" height="30" uuid="ef9b6d27-9dc0-46b2-bd40-794c74ad4487"/>
+				<textElement>
+					<font fontName="Candara" size="18"/>
+				</textElement>
+				<text><![CDATA[Reporte de peso del personal]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="33">
+			<staticText>
+				<reportElement x="160" y="0" width="70" height="30" uuid="728d3401-e6da-4a03-8d39-19d4ec6124c5"/>
+				<box>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fecha]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="0" width="66" height="30" uuid="c7aa5a9c-ca92-48e4-ba17-de5deb6a61b1"/>
+				<box>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Peso (kg)	]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="296" y="0" width="50" height="30" uuid="c02ebde1-ac79-453e-a634-67c3b20297f1"/>
+				<box>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[IMC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="346" y="0" width="100" height="30" uuid="fe09227a-69fc-40bc-933b-4d749bc26558"/>
+				<box>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Situacion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="446" y="0" width="100" height="30" uuid="4cbe310d-ca14-4302-bca7-f5173261873e"/>
+				<box>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Observaciones]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="160" height="30" uuid="fafda3a4-72f5-487f-9e3c-4fdfaa16fb20"/>
+				<box>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre y Apellido]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="160" height="30" uuid="15179472-2951-476a-a3b5-3164d3bbe7bd"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nombreAlumno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="0" width="70" height="30" uuid="1e303d77-8caf-47e4-b56d-926fb2284ba5"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{fechaPesaje}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="0" width="66" height="30" uuid="f3c58657-f945-42c4-873f-a46377d714b7"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pesoKg}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="296" y="0" width="50" height="30" uuid="c22d15d7-2a84-4427-8ab1-7994415f199c"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{imc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="346" y="0" width="100" height="30" uuid="5fd5fb95-ded3-4eb6-99f7-8bfbf38e1782"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{situacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="446" y="0" width="100" height="30" uuid="042d465e-663d-41e3-9021-224d7e13059e"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{tratamiento}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="26">
+			<textField>
+				<reportElement x="370" y="2" width="80" height="18" uuid="2d84f6af-fad4-4824-8c4d-4ed52c80d060"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="-2" y="0" width="122" height="20" uuid="3e77d599-60f8-4389-8f1a-a73dba01fa42"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="235" y="2" width="90" height="18" uuid="56ac823b-c765-4b4e-b0ce-746b58040dbe"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[EduFis - DESTA3]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="450" y="2" width="100" height="18" uuid="535bcb95-1574-4f9e-9742-152d4c9e86cb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
